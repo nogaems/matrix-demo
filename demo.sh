@@ -1,5 +1,5 @@
 #!/bin/bash
-tmux new-session -d -s demo
+tmux -u new-session -d -s demo
 tmux rename-window 'Matrix'
 tmux select-window -t demo:0
 tmux send-keys -t 0 'weechat' 'Enter'
