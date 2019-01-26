@@ -1,0 +1,9 @@
+Press Control-b then o to switch your active pane, Pg-Up and Pg-Down for scrolling this text.
+
+This is the live demo of what weechat-matrix plugin is.
+After it gets fully loaded and connected (it takes about 10 seconds usually) you'll be able to manage your matrix accounts (add, modify, delete), connect to servers, join rooms and stuff.
+Type "/help matrix" and press Enter in weechat pane to get more information.
+Press Alt+<Number> to display desired room with accourding <Number> from the list of the rooms you've already joined in.
+You can join a room by using this command: /join #roomname:servername.
+If you're seeing something weird which is more like a bunch of unrelated characters, you better increase your terminal size since it's weechat and it takes pretty much screen space without proper customization.
+That's basically it. When you finish, just press Control-b then d to detach this tmux session and terninate the container.

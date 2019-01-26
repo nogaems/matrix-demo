@@ -1,0 +1,4 @@
+*/set matrix.server.matrix_org.username weechat-matrix
+*/set matrix.server.matrix_org.password weechat-matrix
+*/save
+*/matrix connect matrix_org
